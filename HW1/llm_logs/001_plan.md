@@ -6,7 +6,7 @@
 
 ## Prompts
 
-> I'm thinking ahead about possible landmines and data idiosyncrasies, so before we even start coding, please read both `_info/main_plan.tex` and `_info/Work1.md` exhaustively — you need to internalize not just the workflow, but the intended statistical guarantees, evaluation protocols, and calendar conventions.
+> I'm thinking ahead about possible landmines and data idiosyncrasies, so before we even start coding, please read both `_info/main_plan.tex` exhaustively — you need to internalize not just the workflow, but the intended statistical guarantees, evaluation protocols, and calendar conventions.
 >
 > I've attached a snippet from our CRSP raw loader, please step through and verify: does it strictly select the full DJ30 membership each day? Are any tickers missing or misaligned, especially on corporate action dates? How is universe completeness enforced?
 >
